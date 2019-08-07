@@ -1,0 +1,101 @@
+/* HOME */
+
+.home .row{
+	margin: 0px 3px 0px 3px;
+}
+
+
+.home{
+	background: url(img/home.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.home .header h1{
+	text-align: center;
+	color: white;
+	margin-top: 20%;
+	font-weight: bold;
+	font-size: 55px;
+}
+
+.home .header .btn{
+	background: white;
+	padding: 10px;
+	border-radius: 0;
+	margin-left: 48%;
+	text-align: center;
+	margin-top: 15px;
+	cursor: pointer;
+	-webkit-box-shadow: 3px 3px 0px 2px rgba(0,0,0,0.27);
+-moz-box-shadow: 3px 3px 0px 2px rgba(0,0,0,0.27);
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.27);
+}
+
+.home .header .btn:hover{
+	background: #CBCBCB;
+
+}
+
+/* NAV */
+.topnav .logo{
+	font-family: 'Cinzel', serif;
+	color: white;
+	text-decoration: none;
+	margin-left: 5px;
+	font-size: 35px;
+}
+
+.topnav{
+	margin: 15px 25px 0px 25px;
+	padding: 0px 5px 0px 5px; 
+}
+
+.topnav .navbar-nav a{
+	color: white;
+}
+
+.topnav .navbar-nav li{
+	padding:  0px 30px 0px 30px;
+	text-align: center;
+	line-height: 3;
+}
+
+.topnav .navbar-nav li:hover{
+	
+}
+
+/* WRAPPER */
+
+
+.wrapper{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.wrapper h2{
+	font-size: 22px;
+}
+
+.wrapper div{
+	margin-bottom: 5px;
+}
+
+/* BOTONES GENERALES */
+
+.btndk{
+	background: black;
+	padding: 15px;
+	border-radius: 0px;
+	color: white;
+	cursor: pointer;
+}
+
+/* PRODUCTOS DESTACADOS */
+
+.stprod h2{
+	text-align: center;
+}
